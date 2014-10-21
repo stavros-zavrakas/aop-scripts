@@ -1,0 +1,3 @@
+This script is using rm -rf commands on paths that are generated dynamically! In case of an error if something is going to calculated wrong it can delete files that should not delete and in the worst case can run an rm -rf in the whole file system!
+
+If for any kind of reason you have a problem using the scripts or you have unexpected errors, contact some other developers and NEVER run it as super user!
